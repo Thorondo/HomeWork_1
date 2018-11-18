@@ -1,0 +1,6 @@
+﻿  segmentation.cpp
+c:\users\admin\source\repos\solvepnp\solvepnp\segmentation.cpp(58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\admin\source\repos\solvepnp\solvepnp\segmentation.cpp(63): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  solvePnP.cpp
+  正在生成代码...
+  SolvePnP.vcxproj -> C:\Users\admin\source\repos\SolvePnP\x64\Debug\SolvePnP.exe

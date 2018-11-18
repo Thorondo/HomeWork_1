@@ -1,0 +1,87 @@
+﻿Ubuntu 常用指令
+1.键盘输入法切换方式：super+space切换
+2.Ctrl+F[1-7]切换登录方式，且Ctrl+F7回到图形界面
+3.Ctrl+Alt+T打开终端
+4.在终端中：
+
+Ctrl+d
+键盘输入结束或退出终端
+Ctrl+s
+暂停当前程序，暂停后按下任意键恢复运行
+Ctrl+z
+将当前程序放到后台运行，恢复到前台为命令fg
+Ctrl+a
+将光标移至输入行头，相当于Home键
+Ctrl+e
+将光标移至输入行末，相当于End键
+Ctrl+k
+删除从光标所在位置到行末
+Ctrl+c
+停止当前程序
+Ctrl+Alt+Z
+也可以停止当前程序
+Alt+space
+向前删除一个单词
+Shift+PgUp
+将终端显示向上滚动
+Shift+PgDn
+将终端显示向下滚动
+cd+目录名
+进入目录;例如：cd /home/
+pwd
+查看当前所在目录
+touch+文件名
+创建文件，例如touch 1.txt创建一个1.txt文件
+ls
+查找文件例如ls*txt查找txt文件
+Man man
+打开用户手册
+Ls --help
+打开帮助
+Sudo adduer+用户名
+创建新用户
+Cat + 目录
+查看文件;例如：cat /etc/group|sort sort是用来排序的
+sudo+deluser+用户名
+删除用户
+mkdir+目录名
+创建一个新目录，例如：mkdir mydir 创建一个名为mydir的目录
+rmkdir+目录名
+删除目录
+Cp+-r+目录1+目录2
+将目录1复制到目录2下 
+cp+文件名+目录
+将文件复制到目录下
+rm+文件名
+删除文件
+rm -r 目录名
+删除目录
+mv 文件名 目的目录
+移动文件到相应目录
+mv+A+B 
+将文件A 重命名为B
+df
+查看磁盘容量
+du
+查看目录的容量
+gedit
+编辑文件
+
+5.git的使用	
+   （1）git init	 创建 git仓库
+   （2）添加文件到git的步骤
+	1. 使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+	2.使用命令git commit -m <message>，完成。 
+   （3）git status  查看仓库状态
+    （4）git log ggg（文件或目录名）   用于查看指定的目录、文件的日志
+    （5）git log -p 查看提交所带来的改动
+    （6）git log -p ggg  查看指定文件的改动
+    （7）git diff         可以查看工作树，暂存区，最新提交之间的差别
+　（8）git diff HEAD  查看工作树与最新提交的差别
+    （9）查看分支：git branch
+            创建分支：git branch <name>
+           切换分支：git checkout <name>
+            创建+切换分支：git checkout -b <name>
+           合并某分支到当前分支：git merge <name>
+            删除分支：git branch -d <name>
+
